@@ -25,7 +25,7 @@ if uploaded_images is not None:
         img= Image.open(image) 
         images.append(img)  
 
-    st.image(images, caption=["Uploaded Image"]*len(images), use_column_width=True)  
+    st.image(images, caption=["Uploaded Image"]*len(images), use_container_width=True)  
 
 
 system_prompt= '''
